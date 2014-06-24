@@ -9,6 +9,9 @@
 #import "CCNode.h"
 #import "Character.h"
 
+float timeSinceObstacle;
+
+
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
     DrawingOrderGround,
